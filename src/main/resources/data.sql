@@ -37,13 +37,13 @@ values (1, 1),
        (10, 2);
 
 insert into event (creator_id, title, location, date, event_details, creation_date)
-values (2, 'D&D night', 'Zagreb', '2022-09-26T18:00:00', 'Roll initiative', '2022-05-02'),
-       (5, 'Experimental Techno', 'Rijeka', '2022-10-10T22:00:00', 'Upad 50 kn, klub Život', '2022-05-02'),
-       (7, 'Beach party', 'Lovran', '2022-10-31T16:00:00', 'Vrijeme je za kupanje', '2022-05-02'),
-        (4, '"2HG prerelease dominaria united"', 'Zagreb', '2022-10-31T16:00:00', 'upad 200kn/30€', '2022-05-02'),
-        (7, 'Turski Psychopop', 'Zagreb', '2022-12-25T20:00:00', 'Karte ne možete još pokupiti', '2022-05-02'),
-        (1, 'Okupljanje sk8era', 'Zagreb', '2022-10-31T16:00:00', 'On je bio sk8er dečko, rekla sam vidimo se poslije dečko - nije bio dovoljno dobar za mene', '2022-05-02'),
-        (6, 'Nova Godina', 'Zagreb', '2022-12-31T23:59:59', 'Više nemam ideja ovo je zadnji event', '2022-05-02');
+values (2, 'D&D night', 'Zagreb', '2024-09-26T18:00:00', 'Roll initiative', '2022-05-02'),
+       (5, 'Experimental Techno', 'Rijeka', '2024-10-10T22:00:00', 'Upad 50 kn, klub Život', '2022-05-02'),
+       (7, 'Beach party', 'Lovran', '2024-10-31T16:00:00', 'Vrijeme je za kupanje', '2022-05-02'),
+        (4, '"2HG prerelease dominaria united"', 'Zagreb', '2024-10-31T16:00:00', 'upad 200kn/30€', '2022-05-02'),
+        (7, 'Turski Psychopop', 'Zagreb', '2024-12-25T20:00:00', 'Karte ne možete još pokupiti', '2022-05-02'),
+        (1, 'Okupljanje sk8era', 'Zagreb', '2024-10-31T16:00:00', 'On je bio sk8er dečko, rekla sam vidimo se poslije dečko - nije bio dovoljno dobar za mene', '2022-05-02'),
+        (6, 'Nova Godina', 'Zagreb', '2024-12-31T23:59:59', 'Više nemam ideja ovo je zadnji event', '2022-05-02');
 
 
 insert into message_group (name)

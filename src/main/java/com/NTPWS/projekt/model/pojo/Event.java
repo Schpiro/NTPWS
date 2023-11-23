@@ -29,7 +29,8 @@ public class Event {
             inverseJoinColumns = @JoinColumn(name = "user_id"))
     private List<User> users;
 
-    @OneToMany(mappedBy = "event")
+    @OneToMany(mappedBy = "event",
+            cascade = CascadeType.ALL)
     private List<Comment> comments;
 
     public Event(User creator, String title, String location, LocalDateTime date, String eventDetails) {
